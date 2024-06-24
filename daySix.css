@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.listing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
+  color: white;
+  cursor: pointer;
+
+  :hover {
+    color: black;
+    padding: 3px 3px 3px 3px;
+    background-color: aliceblue;
+  }
+}
+
+.logo {
+  height: 3rem;
+  width: 2.5rem;
+}
