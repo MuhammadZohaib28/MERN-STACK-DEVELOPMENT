@@ -42,3 +42,7 @@ let table = 17;
 for (i; i <= 10; i++){
     console.log(`${table} * ${i} = ${table * i}`);
 }
+
+
+//  17 * 1 = 17
+//  17 * 2
