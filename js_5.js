@@ -14,10 +14,13 @@ let fruit5 = "Mango";
 // Array of fruits
 
 let fruits = ["Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes","Apple", "Banana", "Orange", "Grapes"];
-console.log(`New fruit is ${fruits.push("Guava")}`);  //PROBLEM
+
+let newItem = fruits.push("Guava");
+console.log(`New fruit is ${fruits[fruits.length-1]}`);  //PROBLEM
 
 
-for(let i = 0; i <=  fruits.length; i++){
+
+for(let i = 0; i <  fruits.length; i++){
     console.log(`${i + 1} - ${fruits[i]}`)
 }
 
